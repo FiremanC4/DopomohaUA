@@ -2,32 +2,41 @@
 
 ## Quick Start
 
-Clone repo
+1. Clone repo
 
 ```
 git clone https://github.com/nazarsokal/testTask.git
 cd testTask/
 ```
+2. create [venv](https://docs.python.org/3/library/venv.html)
 
-Install dependencies
+
+
+```
+python -m venv .env
+```
+Do not forget to [activate](https://docs.python.org/3/library/venv.html#how-venvs-work) it!
+
+
+3. Install dependencies
 
 ```
 pip install -r requirements.txt
 ```
 
-You can edit `config/config.ini` file but we recommend using our telegram channels and bots
+4.  _(optional)_ You can edit `config/config.ini` file but we recommend using our telegram channels and bots
 
 https://t.me/kpktaskbot
 
 https://t.me/KRKtest
 
-And finally start the bot
+5. And finally, start the bot
 
 ```
 python main.py
 ```
 
-## Project Description (It also pinned in main chanel)
+## Project Description (It's also pinned in the main channel)
 
 Телеграм-канал призначений для взаємодії між такими сторонами. Особа, яка потребує допомоги, та особа яка бажає допомогти. В основі цього механізму лежить телеграм бот, який виконує перелічені нижче команди:
 -Запис прохань про допомогу та запис їх у базу даних, після чого ці записи відправляються в окремий телеграм канал, який призначений для взаємодії між двома сторонами.
