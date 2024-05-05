@@ -1,2 +1,2 @@
-pytelegrambotapi
-mysql-connector-python
+pytelegrambotapi==4.17.0
+aiogram==3.5.0
